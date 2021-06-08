@@ -1,0 +1,5 @@
+// Github 원격저장소와 연결한다.
+git remote add origin [자신의 Github 원격저장소 주소]
+ 
+// 연결된 원격저장소 확인한다.
+git remote -v
