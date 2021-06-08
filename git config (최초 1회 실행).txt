@@ -1,0 +1,8 @@
+// git commit에 사용될 username
+git config --global user.name "your_name"
+ 
+// git commit에 사용될 email
+git config --global user.email "your_email@example.com"
+ 
+// 설정한 내용을 확인할 수 있다.
+git config --list
