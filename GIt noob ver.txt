@@ -1,0 +1,5 @@
+1. git init
+2. git remote add origin (git hub 저장할곳 링크) (처음 적용하는 파일에만 사용)
+3. git add . -> 모두 업로드
+4. git commit -m "메세지"
+5. git push -u origin master
