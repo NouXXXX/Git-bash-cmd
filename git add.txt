@@ -1,0 +1,13 @@
+
+// a.html 파일만 추가
+git add a.html
+ 
+// 워킹 디렉터리 내 모든 파일을 추가
+git add .
+ 
+// 명령 프롬프트에서 상호작용하면서 추가 (나갈땐 q를 입력)
+git add -i
+ 
+// 진행중인 파일일 경우, Staging Area에서 워킹 디렉터리로 옮겨온다. 
+$git rm --cached a.html
+$git rm -r --cached .
