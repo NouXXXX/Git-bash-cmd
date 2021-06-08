@@ -1,0 +1,11 @@
+// 커밋 이력 상세조회
+git log 
+ 
+// 커밋 이력중 커밋ID, 타이틀 메시지만 조회
+git log --oneline
+ 
+// 모든 브랜치 커밋 이력 조회
+git log --oneline --decorate --graph --all
+ 
+// 특정 파일의 변경 커밋 조회
+git log -- a.html
